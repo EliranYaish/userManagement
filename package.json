@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/EliranYaish/userManagement/issues"
   },
-  "homepage": "https://github.com/EliranYaish/userManagement#readme"
+  "homepage": "https://github.com/EliranYaish/userManagement#readme",
+  "dependencies": {
+    "quasar-cli": "^0.16.4",
+    "vue-cli": "^2.9.6"
+  }
 }

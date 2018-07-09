@@ -49,7 +49,10 @@
             vm.updateUserObj.email =response.data.email;
             vm.updateUserObj.age =response.data.age;
 
-          });
+          }).catch(error => {
+    console.log(error);
+    this.$router.push({ name: 'Error', params:{errorMsg:"Network Error"} });
+  });
       },
     methods: {
       returnToHome: function(){
